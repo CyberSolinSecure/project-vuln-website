@@ -41,7 +41,7 @@ const DocsPage = () => {
             Start the server: <code>node server.js</code>
           </li>
           <li>
-            The backend will run on <code>http://localhost:5000</code> by default.
+            The backend will run on <code>http://localhost:5001</code> by default.
           </li>
         </ol>
 
