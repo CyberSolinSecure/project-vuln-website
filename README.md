@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Vulnerable Website for Educational Purposes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This website is intentionally vulnerable and has been created for **educational and demonstration purposes only**. It contains common security vulnerabilities that are used to demonstrate various types of attacks and help learn about web application security.
 
-In the project directory, you can run:
+## Disclaimer
 
-### `npm start`
+- This website should **ONLY** be used in a **local development environment**.
+- **Do not** deploy this application to a public server or expose it to the internet, as it contains security flaws that could be exploited.
+- **Use this website responsibly** for educational purposes and to learn how to secure web applications.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Vulnerabilities Included
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **SQL Injection**: Demonstrates how attackers can manipulate SQL queries through unsanitized user input.
+2. **Security Misconfiguration**: Simulates common security misconfigurations that can be exploited if not properly handled.
+3. **Insecure Direct Object References (IDOR)**: Exploits poor access control mechanisms allowing attackers to access unauthorized resources.
+4. **Cross-Site Scripting (XSS)**: Shows how malicious scripts can be injected into web pages when user input is improperly sanitized.
 
-### `npm test`
+## Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**:
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
 
-### `npm run build`
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Run the application locally**:
+    ```bash
+    node index.js
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Access the website**:
+    Open your browser and go to:
+    ```
+    http://localhost:5001
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Important Notes
 
-### `npm run eject`
+- This website is vulnerable, and the goal of setting up this application is to help you learn how to identify and mitigate security vulnerabilities.
+- **Do not** attempt to use this in any production environment.
+- It is highly recommended to use this only on your **local machine** and in a **controlled environment**.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is for **educational purposes only** and is not intended for commercial use.
